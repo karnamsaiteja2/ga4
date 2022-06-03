@@ -91,36 +91,6 @@ const Home = () => {
     <>
       <h1 className="heading-primary">Home</h1>
       <p>Shake and Bake</p>
-      <p className="about-person">
-        When I was asked to describe myself in one word, it was really hard to
-        choose a certain word because I could think of many adjectives to
-        describe myself. I would put numerous descriptions of my character
-        trait, but since I could only limit myself to only one word, I would
-        call me funny. According to the Online Oxford English Dictionary, funny
-        means: “Humorous, comical, fun; causing laughter or amusement.” ("Funny,
-        adj., n2, A1"). I guess without even trying, I am quite a funny person.
-        It is just a part of my personality for me to behave, think, and react
-        in an involuntarily funny way whenever I converse with my peers. The way
-        I behave makes me seem like I’m a funny person without even trying. I
-        guess whenever I talk to someone…show more content… Being funny makes me
-        feel creative in a way that I would only understand. From time to time
-        now, my little sister always says “Brandon, how do you always think of
-        these weird things so fast?”, and I always tell her that it’s whatever
-        puts on in the mind I say. Then she told me that I was the most creative
-        person that she ever talks to because of the way I think. I feel like I
-        react differently than some people because I look at the bright funny
-        side of any situation that could be good or bad. I would say that would
-        make me an optimist because it’s like I see “the glass half full”,
-        instead of looking at the down side. I would try to get a good laugh
-        from a bad situation, so it doesn’t hurt as much when I really know how
-        bad it is. Sometimes if I’m trying to be funny on purpose, I would over
-        react at some of the most irrelevant things just to get in a good laugh
-        for myself. For instance, it’s like whenever my sister accidently steps
-        on my shoe, I would react in such an overcompensate type of way. I would
-        only do that so she feels bad, but she would know that I am joking. I
-        react the way I do, so I could get over the bad things that happens and
-        it helps me move on more Get Access Check Writing Quality Related Good
-      </p>
     </>
   );
 };
