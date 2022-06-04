@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -7,6 +8,24 @@ import {
   Link,
   useParams,
 } from "react-router-dom";
+
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-CCPB9CMBEH");
+ReactGA.send("pageview");
+
+// Send pageview with a custom path
+ReactGA.send({ hitType: "pageview", page: "/my-path" });
+
+// Send a custom event
+ReactGA.event({
+  category: "your category",
+  action: "your action",
+  label: "your label", // optional
+  value: 99, // optional, must be a number
+  nonInteraction: true, // optional, true/false
+  transport: "xhr", // optional, beacon/xhr/image
+});
 
 const people = [
   `HowlaGaadu`,
