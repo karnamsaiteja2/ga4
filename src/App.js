@@ -33,6 +33,12 @@ const people = [
   `Tabrez`,
 ];
 
+const edoti = () => {
+  gtag("event", "download_poll_image", {
+    poll_title: "some title",
+  });
+};
+
 ///////// REACT ROUTER V5///////////
 
 // 1. Import BrowserRouter as Router (common practice of giving alias in community), Route, Switch.
@@ -129,7 +135,7 @@ const People = () => {
         {people.map((curr, i) => {
           return (
             <Link to={`/person/${curr}`} className="links">
-              <div key={i} className="person flex-centering">
+              <div onClick={edoti} key={i} className="person flex-centering">
                 {curr}
               </div>
             </Link>
