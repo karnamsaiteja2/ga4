@@ -9,6 +9,8 @@ import {
   useParams,
 } from "react-router-dom";
 
+import gtag from "ga-gtag";
+
 import ReactGA from "react-ga4";
 
 // Send pageview with a custom path
